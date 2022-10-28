@@ -1,0 +1,15 @@
+{
+  "name": "dt-automation-tech-test",
+  "version": "1.0.0",
+  "description": "Tech test for automation tester role",
+  "main": "index.js",
+  "scripts": {
+    "first-test": "npx playwright test tests/test.spec.js --headed",
+    "all": "npx playwright test"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@playwright/test": "^1.22.0"
+  }
+}
